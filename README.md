@@ -41,3 +41,8 @@ The objective of our project is to automate the toll tax collecting procedure th
 2. **EasyOCR:** EasyOCR is a Python library that offers a simple and effective way to extract text from pictures. It requires very little setup and preparation to reliably detect and recognise text in a variety of languages and fonts through the use of optical character recognition (OCR) techniques combined with deep learning models. In the project, EasyOCR is used to recognise the text from the detected license plates along with the confidence scores.
 
 3. **SORT (Simple Online and Realtime Tracking):** SORT is a real-time tracking algorithm for 2D multiple object tracking in video sequences. It is designed for online tracking applications where only past and current frames are available and the method produces object identities on the fly. The algorithm is used to track the vehicles in different frames and assigns them an identity which is later used to club the actual license plate text amongst the predicted ones.
+
+## Setup Instructions
+1. Clone the repository
+2. Install dependencies: pip install -r requirements.txt
+3. Run: python manage.py runserver
